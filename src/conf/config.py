@@ -5,7 +5,8 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    DB_URL : str = "postgresql+asyncpg://postgres:567234@localhost:5432/PawPrints"
+    DB_URL: str = "postgresql+asyncpg://koyeb-adm:M2uewqRpf0mJ@ep-purple-voice-34506008.eu-central-1.pg.koyeb.app/koyebdb"
+    # DB_URL: str = "postgresql+asyncpg://postgres:567234@localhost:5432/PawPrints"
     SECRET_KEY_JWT: str = "1234567890"
     ALGORITHM: str = "HS256"
     MAIL_USERNAME: EmailStr = "postgres@meail.com"
